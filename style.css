@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding : 0;
+    font-family: sans-serif;
+}
+.main{
+    width : 100% ;
+    height : 100vh;
+    position: relative;
+    overflow: hidden;
+    background : linear-gradient(to right, #544343, #56282D);
+    
+}
+nav{
+    width: 80%;
+    position : sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    height:15%
+}
+
+.logo{
+    flex-basis: 0%;
+}
+
+.logo img{
+    width: 240px;
+    height: 90px
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+    background-color: #EEE5E5;
+    font-family: segoe ui;
+    height: 60px;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 30px;
+    margin-top: 13px;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.inforamtion{
+     width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%)
+}
+
+#circle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: #ccc;
+}
+.feature{
+    padding-left: 10%;
+    padding-bottom: 4%;
+    font-family: Segoe UI Light;
+    font-size: 20px;
+    background-color: #DDCECD;
+    
+        
+    
+}
+.nav{
+    
+}
+.one{
+    top: 450px;
+    right: 50px;
+}
+.two{
+     top: 150px;
+    right: 350px;
+}
+.three{
+     top: 450px;
+    right: 50px;
+}
+.four{
+     top: 150px;
+    right: 350px;
+}
+.content{
+   
+    margin: 20px
+}
+
+span{
+    opacity: 0;
+    transition : all 0.4s ease;
+    transform: translateY(50px);
+    
+}
+span.fade{
+    opacity: 1;
+    transform: translateY(0px);
+}
